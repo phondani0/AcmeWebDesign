@@ -21,15 +21,15 @@ function customNav(e) {
 $('a[href*="#"]') // Remove links that don't actually link to anything
   .not('[href="#"]')
   .not('[href="#0"]')
-  .click(function (event) {
+  .click(function(event) {
     $('html, body').animate({
       scrollTop: $($.attr(this, 'href')).offset().top
     }, 600, 'swing');
     event.preventDefault();
   });
 
-
 //Vannila js FADE-IN EFFECT
+
 // window.addEventListener('scroll', fadeIn);
 //
 // function fadeIn() {
@@ -60,7 +60,7 @@ $('.gallery-img-container').magnificPopup({
 /*============ OWL-CAROUSE =============*/
 /*======================================*/
 
-$(document).ready(function () {
+$(document).ready(function() {
   $('.owl-carousel').owlCarousel({
     loop: true,
     autoplay: true,
@@ -81,13 +81,12 @@ $(document).ready(function () {
   });
 });
 
-
 /*======================================*/
 /*============= ANIVIEW.JS =============*/
 /*======================================*/
 
 var options = {
-  animateThreshold: 100,
-  scrollPollInterval: 20
+    animateThreshold: 100,
+    scrollPollInterval: 20
 }
 $('.aniview').AniView(options);

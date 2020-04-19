@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
   height: 100%;
 }
 
@@ -20,9 +19,7 @@ p {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-h1,
-h2,
-h3 {
+h1,h2,h3 {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -103,7 +100,6 @@ section {
 } */
 
 /* =============== PARALLAX EFFECT=============== */
-
 .parallax {
   background-repeat: no-repeat;
   background-size: cover;
@@ -177,10 +173,9 @@ section {
 }
 
 /*======================================*/
-
 /*============== SERVICES ==============*/
-
 /*======================================*/
+
 
 #services {
   height: auto;
@@ -200,7 +195,7 @@ section {
   text-align: center;
 }
 
-.services-content-icon:hover {
+.services-content-icon:hover{
   background-color: #34c6d3;
   color: #ffffff;
 }
@@ -209,7 +204,7 @@ section {
   font-size: 250%;
 }
 
-.services-content-body p {
+.services-content-body p{
   color: #64707b;
   font-weight: 300;
 }
@@ -247,15 +242,14 @@ section {
     text-align: center;
   }
 
+
   .services-content-icon i {
     font-size: 220%;
   }
 }
 
 /* ====================================== */
-
 /* =============== ABOUT ================ */
-
 /* ====================================== */
 
 #about {
@@ -306,9 +300,7 @@ section {
 }
 
 /* ====================================== */
-
 /* ================ WORK ================ */
-
 /* ====================================== */
 
 #work {
@@ -326,7 +318,7 @@ section {
   height: 100%;
   padding: 0;
   margin: 0;
-  cursor: zoom-in;
+  cursor:zoom-in;
 }
 
 .gallery-img-container img:hover {
@@ -335,9 +327,7 @@ section {
 }
 
 /* ====================================== */
-
 /* ================ TEAM ================ */
-
 /* ====================================== */
 
 #team {
@@ -375,10 +365,9 @@ section {
   color: #34c6d3;
 }
 
+
 /* ====================================== */
-
 /* ============== PRICING =============== */
-
 /* ====================================== */
 
 #pricing {
@@ -436,24 +425,19 @@ section {
 }
 
 @media only screen and (max-width: 991.1px) {
-
-  .pricing-container:nth-child(odd),
-  .pricing-container:nth-child(even) {
+  .pricing-container:nth-child(odd), .pricing-container:nth-child(even) {
     position: relative;
     top: 0;
     box-shadow: 0 0 20px rgba(0, 0, 0, .4);
   }
 
-  .pricing-container:nth-child(2),
-  .pricing-container:nth-child(3) {
+  .pricing-container:nth-child(2),  .pricing-container:nth-child(3) {
     margin: 2rem 0 0;
   }
 }
 
 /* ====================================== */
-
 /* ============== CONTACT =============== */
-
 /* ====================================== */
 
 #contact {
@@ -478,16 +462,15 @@ section {
   background-color: #263238;
 }
 
-#contact-sub-section .row {
+#contact-sub-section  .row {
   height: 30rem;
 }
 
 
 /* ====================================== */
-
 /* =============== FOOTER =============== */
-
 /* ====================================== */
+
 
 #footer div {
   background-color: #455A64;
@@ -498,20 +481,63 @@ section {
   justify-content: center;
 }
 
+
 /* ====================================== */
-
 /* =========== MEDIA QUERIES ============ */
-
 /* ====================================== */
 
 @media only screen and (max-width: 991.1px) {
   .social-icons {
     margin: .5rem 1.2rem;
   }
-
   .social-icons i {
     font-size: 12px;
   }
 }
 
-#temp {}
+#temp {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
