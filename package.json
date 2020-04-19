@@ -1,0 +1,29 @@
+{
+  "name": "acme",
+  "version": "1.0.0",
+  "description": "website template for webdesign \u001b[D\u001b[D\u001b[D\u001b[C\u001b[C company.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-uglify": "^3.0.1",
+    "gulp-uglify-es": "^1.0.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.2",
+    "jquery": "^3.3.1",
+    "natives": "^1.1.6",
+    "popper.js": "^1.14.3",
+    "scrollreveal": "^4.0.2"
+  }
+}
